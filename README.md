@@ -8,7 +8,7 @@ The Product App is a Flutter-based application designed to display a list of pro
 
 1. **Product Listing**
    - Displays a list of products with their names, images, and prices.
-   - Products can be hardcoded or sourced from a JSON file.
+   - Products are sourced from a JSON file but can be fetched from REST api with minimal changes.
    - Includes a search bar to filter products by name.
 
 2. **Product Details**
@@ -24,12 +24,10 @@ The Product App is a Flutter-based application designed to display a list of pro
 4. **UI**
    - Features a clean, responsive, and user-friendly interface.
 
-## Bonus Features (Optional)
+## Bonus Features 
 
-- **State Management**: Uses state management solutions such as Provider, Riverpod, or Bloc.
-- **Animations**: Adds animations to enhance user experience.
-- **Persistent Storage**: Implements persistent storage using SharedPreferences or SQLite.
-- **Testing**: Includes basic unit and widget tests.
+- **State Management**: Uses Bloc state management solution.
+- **Persistent Storage**: Implements persistent storage using SharedPreferences.
 
 ## Project Structure
 
